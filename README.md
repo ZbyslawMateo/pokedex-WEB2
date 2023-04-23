@@ -1,1 +1,0 @@
-# pokedex-WEB2

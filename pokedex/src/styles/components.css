@@ -1,0 +1,140 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+.pokemon-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  grid-row-gap: 20px;
+  grid-column-gap: 5px;
+  justify-items: center; 
+  margin: 0 auto;
+  max-width: 2200px;
+}
+
+@media (max-width: 768px) {
+  .pokemon-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .pokemon-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.pokemon-card {
+  width: 300px;
+  margin: 5px;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pokemon-card-header {
+  padding: 12px;
+  text-align: center;
+  background-color: #1aa85c;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  align-items: flex-start;
+}
+
+.pokemon-card-header h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.pokemon-card-body {
+  padding: 5px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.pokemon-card-image {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.pokemon-app {
+  text-align: center;
+  font-size: xx-large;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-btn {
+  background-color: #1aa85c;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 2rem;
+  margin: 0 10px;
+  margin-top: 40px;
+  margin-inline: 20px;
+  padding: 14px;
+  transition: all 0.3s ease;
+}
+
+.pagination-btn:hover {
+  background-color: #186748;
+}
+.navbar {
+  background-color: #1aa85c;
+  color: #fff;
+  height: 10%px;
+  display: flex;
+  justify-content: center;
+}
+
+.sidebar {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  width: 100%;
+}
+
+.sidebar-content {
+  width: 100%;
+}
+
+.lists {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list {
+  width: 100%;
+}
+
+.nav-link {
+  display: block;
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  background-color: #effff5;
+  color: #1aa85c;
+  transition: all 0.3s ease-in-out;
+}
+
+.link {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}

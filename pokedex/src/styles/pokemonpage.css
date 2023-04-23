@@ -1,0 +1,30 @@
+.pokemon-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 2rem;
+}
+.pokemon-image-container img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.stats-container ul,
+.abilities-container ul,
+.overall-info-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.stats-container li,
+.abilities-container li,
+.overall-info-container li {
+  margin-bottom: 0.5rem;
+}
+
+.overall-info-container li:not(:last-child) {
+  margin-bottom: 1rem;
+}
