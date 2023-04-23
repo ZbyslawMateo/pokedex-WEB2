@@ -22,9 +22,10 @@ export default function PokemonPage() {
 
   return (
     <div className="pokemon-page-container">
+      <h1 className="pokemon-name">{name}</h1>
     <div className="pokemon-details-container">
       <div className="pokemon-image-container">
-        <img src={sprites.front_default} alt={name} />
+        <img src={sprites.other.dream_world.front_default} alt={name} />
       </div>
         <div className="stats-container">
           <h3>Stats</h3>

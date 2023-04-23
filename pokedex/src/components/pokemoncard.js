@@ -24,7 +24,7 @@ export default function PokemonCard({ pokemon }) {
         <h3>{`${pokemonData.id}. ${pokemon.name}`}</h3>
       </div>
       <div className="pokemon-card-body">
-        <img src={pokemonData.sprites.front_default} alt={pokemon.name} className="pokemon-card-image" />
+        <img src={pokemonData.sprites.other.dream_world.front_default} alt={pokemon.name} className="pokemon-card-image" />
       </div>
     </div>
     </Link>

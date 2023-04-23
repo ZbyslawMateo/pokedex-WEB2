@@ -1,6 +1,9 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
 }
+.pokemon-grid-div {
+  padding: 1% 5% 1% 5%;
+}
 .pokemon-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -58,7 +61,7 @@ body {
 .pokemon-card-image {
   display: block;
   margin: 0 auto;
-  width: 80%;
+  width: 40%;
 }
 
 .pokemon-app {
@@ -78,8 +81,7 @@ body {
   color: #fff;
   cursor: pointer;
   font-size: 2rem;
-  margin: 0 10px;
-  margin-top: 40px;
+  margin-top: 10px;
   margin-inline: 20px;
   padding: 14px;
   transition: all 0.3s ease;
