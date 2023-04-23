@@ -2,7 +2,7 @@
   "name": "pokedex",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/ZbyslawMateo/pokedex-WEB2/tree/main/pokedex",
+  "homepage": "https://zbyslawmateo.github.io/pokedex-WEB2",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",

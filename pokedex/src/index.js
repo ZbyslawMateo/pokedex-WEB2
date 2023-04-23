@@ -14,15 +14,15 @@ const router = createHashRouter([
     //errorElement: <ErrorPage />,
       children: [
           {
-              path: "",
+              path: "/",
               element: <Home />,
           },
           {
-              path: "about",
+              path: "/about",
               element: <About />,
           },
           {
-              path: "pokemon/:id",
+              path: "/pokemon/:id",
               element: <PokemonPage />,
           },
       ],
