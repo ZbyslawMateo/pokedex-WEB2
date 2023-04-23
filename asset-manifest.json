@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ZbyslawMateo/pokedex-WEB2/static/css/main.c2084f6e.css",
+    "main.js": "/ZbyslawMateo/pokedex-WEB2/static/js/main.af080c3a.js",
+    "index.html": "/ZbyslawMateo/pokedex-WEB2/index.html",
+    "main.c2084f6e.css.map": "/ZbyslawMateo/pokedex-WEB2/static/css/main.c2084f6e.css.map",
+    "main.af080c3a.js.map": "/ZbyslawMateo/pokedex-WEB2/static/js/main.af080c3a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2084f6e.css",
+    "static/js/main.af080c3a.js"
+  ]
+}
